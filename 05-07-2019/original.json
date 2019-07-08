@@ -1,0 +1,59 @@
+{
+    "header": {
+        "channel": "ODBMS",
+        "commerce": "Sodimac",
+        "country": "CL",
+        "datetime": "2018-10-30T00:00:00.000",
+        "entityType": "purchaseOrder",
+        "messageId": "3a6bcaff-086c-4431-8f91-49ef6b4b4bb8",
+        "mimeType": "application/json",
+        "timestamp": "1535664080965",
+        "version": "1.0"
+    },
+    "metadata": {
+        "products": [
+            {
+                "actualCost": "NO DATA",
+                "description": "CM-LAVADORA 50",
+                "diameter": "NO DATA",
+                "height": "NO DATA",
+                "length": "NO DATA",
+                "name": "123",
+                "originalBudgetedCost": "NO DATA",
+                "quantity": {
+                    "orderQty": "20"
+                },
+                "sku": "3015998",
+                "totalMonetaryValue": "20000",
+                "unitMonetaryValue": "1000",
+                "unitTaxAmount": "NO DATA",
+                "width": "NO DATA"
+            }
+        ],
+        "budgetedCost": "NO DATA",
+        "businessPartnerCode": "4177",
+        "businessUnit": "1",
+        "companyId": "1",
+        "destinationAddress": "Eduado Frei Montalva  # 3092",
+        "destinationAddress2": "",
+        "destinationAddress3": "",
+        "destinationCity": "Santiago",
+        "destinationCountry": "CL",
+        "destinationFacilityAliasId": "20",
+        "destinationFacilityName": "NO ESTA",
+        "destinationStateProv": "RM",
+        "isCancelled": "False",
+        "isClosed": "False",
+        "monetaryValue": "20000",
+        "mvCurrencyCode": "CLP",
+        "orderCancelDate": "2018-11-05 00:00:00",
+        "orderCreatedDate": "2018-10-31 00:00:00",
+        "orderExpectedDate": "2018-11-05 00:00:00",
+        "orderId": "7075856",
+        "orderStatus": "4",
+        "dispatchType": "cross_docking_to_delivery_center",
+        "originFacilityAliasId": "236",
+        "originFacilityName": "NO ESTA",
+        "referenceField3": "MarketPlace DESP Sodimac"
+    }
+}

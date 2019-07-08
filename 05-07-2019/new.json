@@ -1,0 +1,73 @@
+{
+    "header": {
+        "channel": "ODBMS",
+        "commerce": "Sodimac",
+        "country": "CL",
+        "datetime": "2018-10-30T00:00:00.000",
+        "entityType": "purchaseOrder",
+        "messageId": "3a6bcaff-086c-4431-8f91-49ef6b4b4bb8",
+        "mimeType": "application/json",
+        "timestamp": "1535664080965",
+        "version": "1.0"
+    },
+    "metadata": {
+        "products": [
+            {
+                "actualCost": "NO DATA",
+                "description": "CM-LAVADORA 50",
+                "diameter": "NO DATA",
+                "height": "NO DATA",
+                "length": "NO DATA",
+                "name": "123",
+                "originalBudgetedCost": "NO DATA",
+                "quantity": {
+                    "orderQty": "20"
+                },
+                "sku": "3015998",
+                "totalMonetaryValue": "20000",
+                "unitMonetaryValue": "1000",
+                "unitTaxAmount": "NO DATA",
+                "width": "NO DATA"
+            }
+        ],
+        "budgetedCost": "NO DATA",
+        "businessUnit": "1",
+        "companyId": "1",
+        "destinationAddress2": "",
+        "destinationAddress3": "",
+        "destination":{
+            "name":"NO ESTA",
+            // "code":"236",
+            // "address":"Eduado Frei Montalva  # 3092",
+            "address":{
+                "city":"Santiago",
+                "country":"CL",
+                "state":"RM"
+            },
+            "code":"20"
+        },
+        "isCancelled": "False",
+        "isClosed": "False",
+        "vendor":{
+            // "code":"236",
+            "name":"NO ESTA",
+            "code":"4177"
+        },
+
+        "orderId": "7075856",
+
+
+        "purchaseOrder":{
+            "orderNumber":"7075856",
+            "expectedDate": "2018-11-05 00:00:00",
+            "totalAmount":"20000",
+            "currency":"CLP",
+            "dispatchType":"cross_docking_to_delivery_center",
+            "orderStatus":"4",
+            "createdDate":"2018-10-31 00:00:00",
+            "cancelDate":"2018-11-05 00:00:00"
+        },
+
+        "referenceField3": "MarketPlace DESP Sodimac"
+    }
+}
