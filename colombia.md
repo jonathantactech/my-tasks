@@ -72,7 +72,8 @@
                 "orderType": "MKP",
                 "dispatchType": "direct_with_courier",
                 "orderStatus": "readyToDispatch",
-                "generationDate": "1565017877686"
+                "generationDate": "1565017877686",
+                "orderService": "01-1795081"
             },
             "guide": "014994716694",
             "additionalAttributes": {
@@ -90,7 +91,8 @@
                         }
                     ]
                 },
-                "serviceOrder": "01-1795081"
+                "idDetail":"35514500,35514501,35514502"
+                
             }
         }
     }
@@ -101,13 +103,13 @@
 
 ```js
 {
-    "Pvi_Orden_Compra": "orderNumber", //asumo que son lo mismo
-    "Pvi_Id_Detalle": "idDetail", //porque con coma?
-    "Pvi_Url": "pviUrl",//que es el pvi
+    "Pvi_Orden_Compra": "orderNumber", 
+    "Pvi_Id_Detalle": "idDetail",
+    "Pvi_Url": "pviUrl",
     "Pvi_Guia": "pviGuide",
-    "Pvi_Orden_Servicio": "serviceorder",
+    "Pvi_Orden_Servicio": "orderService",
     "Pvi_Url_Rotulos": "pviRotulosUrl",
-    "Pvi_Fecha_Generacion": "generationDate"//1565017877686. que nos tiren directamente un numero para facilitar el parseo
+    "Pvi_Fecha_Generacion": "generationDate"
 }
 
 ```
