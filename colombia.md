@@ -72,7 +72,6 @@
                 "orderType": "MKP",
                 "dispatchType": "direct_with_courier",
                 "orderStatus": "readyToDispatch",
-                "generationDate": "1565017877686",
                 "orderService": "01-1795081",
                 "trackingNumber": "014994716694",
             },
@@ -109,13 +108,14 @@
     "Pvi_Guia": "trackingNumber",
     "Pvi_Orden_Servicio": "orderService",
     "Pvi_Url_Rotulos": "pviRotulosUrl",
-    "Pvi_Fecha_Generacion": "generationDate"
+    "Pvi_Fecha_Generacion": "guideGenerationDate"
 }
 
 ```
 
 # Campos descartados
 <del> "Pvi_Id_Detalle": "idDetail"
+<del> "Pvi_Guia": "trackingNumber",
 # Consideraciones
 
 - Pvi_Guia: es el tracking number
