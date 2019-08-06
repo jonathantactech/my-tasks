@@ -114,7 +114,7 @@
 ```
 
 # Campos descartados
-<del> "Pvi_Id_Detalle": "idDetail"
+<del> "Pvi_Id_Detalle": "idDetail"  
 <del> "Pvi_Guia": "trackingNumber",
 # Consideraciones
 
