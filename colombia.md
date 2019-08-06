@@ -72,7 +72,6 @@
                 "orderType": "MKP",
                 "dispatchType": "direct_with_courier",
                 "orderStatus": "readyToDispatch",
-                "orderService": "01-1795081",
                 "trackingNumber": "014994716694",
             },
             
@@ -90,8 +89,9 @@
                             "url": "labelUrl"
                         }
                     ]
-                }
+                },
                 
+                "orderService": "01-1795081",
             }
         }
     }
