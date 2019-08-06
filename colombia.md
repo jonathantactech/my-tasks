@@ -73,9 +73,10 @@
                 "dispatchType": "direct_with_courier",
                 "orderStatus": "readyToDispatch",
                 "generationDate": "1565017877686",
-                "orderService": "01-1795081"
+                "orderService": "01-1795081",
+                "trackingNumber": "014994716694",
             },
-            "trackingNumber": "014994716694",
+            
             "additionalAttributes": {
                 "pickup": {
                     "address": "avenida siempre viva",
