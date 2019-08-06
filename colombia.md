@@ -116,6 +116,8 @@
 # Campos descartados
 <del> "Pvi_Id_Detalle": "idDetail"  
 <del> Pvi_Fecha_Generacion": "guideGenerationDate,
+
 # Consideraciones
 
 - Pvi_Guia: es el tracking number
+- Las guias de despacho y etiquetas deben ir como un objeto dentro de docs (array de objetos), indicando el tipo y url.
