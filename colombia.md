@@ -75,7 +75,7 @@
                 "generationDate": "1565017877686",
                 "orderService": "01-1795081"
             },
-            "guide": "014994716694",
+            "trackingNumber": "014994716694",
             "additionalAttributes": {
                 "pickup": {
                     "address": "avenida siempre viva",
@@ -90,8 +90,7 @@
                             "url": "labelUrl"
                         }
                     ]
-                },
-                "idDetail":"35514500,35514501,35514502"
+                }
                 
             }
         }
@@ -106,7 +105,7 @@
     "Pvi_Orden_Compra": "orderNumber", 
     "Pvi_Id_Detalle": "idDetail",
     "Pvi_Url": "pviUrl",
-    "Pvi_Guia": "pviGuide",
+    "Pvi_Guia": "trackingNumber",
     "Pvi_Orden_Servicio": "orderService",
     "Pvi_Url_Rotulos": "pviRotulosUrl",
     "Pvi_Fecha_Generacion": "generationDate"
