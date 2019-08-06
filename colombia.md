@@ -104,7 +104,7 @@
 ```js
 {
     "Pvi_Orden_Compra": "orderNumber", 
-    <del>"Pvi_Id_Detalle": "idDetail",</del>
+    "Pvi_Id_Detalle": "idDetail"
     "Pvi_Url": "pviUrl",
     "Pvi_Guia": "trackingNumber",
     "Pvi_Orden_Servicio": "orderService",
@@ -114,6 +114,8 @@
 
 ```
 
+# Campos descartados
+<del> "Pvi_Id_Detalle": "idDetail"
 # Consideraciones
 
 - Pvi_Guia: es el tracking number
