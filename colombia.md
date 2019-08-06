@@ -104,7 +104,7 @@
 ```js
 {
     "Pvi_Orden_Compra": "orderNumber", 
-    "Pvi_Id_Detalle": "idDetail",
+    <del>"Pvi_Id_Detalle": "idDetail",</del>
     "Pvi_Url": "pviUrl",
     "Pvi_Guia": "trackingNumber",
     "Pvi_Orden_Servicio": "orderService",
