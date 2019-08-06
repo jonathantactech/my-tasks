@@ -115,7 +115,7 @@
 
 # Campos descartados
 <del> "Pvi_Id_Detalle": "idDetail"  
-<del> "Pvi_Guia": "trackingNumber",
+<del> Pvi_Fecha_Generacion": "guideGenerationDate,
 # Consideraciones
 
 - Pvi_Guia: es el tracking number
