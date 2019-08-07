@@ -120,5 +120,5 @@
 # Consideraciones
 
 - Pvi_Guia: es el tracking number.
-- courrierCode es un identificador numerico del courrier.
+- courrierCode es un identificador numerico del retiro que asigna el courrier.
 - Las guias de despacho y etiquetas deben ir como un objeto dentro de docs (array de objetos), indicando el tipo y url.
