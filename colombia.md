@@ -78,6 +78,7 @@
                 "pickup": {
                     "address": "avenida siempre viva",
                     "pickupDate": "2019-04-03T16:27:45",
+                    "courierName":"CORREOSDECHILE",
                     "docs": [
                         {
                             "type": "dispatchGuide",
@@ -90,7 +91,7 @@
                     ],
                     "trackingNumber": "014994716694",
                 },
-                "courrierName":"CORREOSDECHILE",
+                
                 "deliveryNumber": "01-1795081",
             }
         }
