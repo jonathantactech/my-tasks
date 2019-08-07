@@ -72,7 +72,6 @@
                 "orderType": "MKP",
                 "dispatchType": "direct_with_courier",
                 "orderStatus": "readyToDispatch",
-                "trackingNumber": "014994716694",
             },
             
             "additionalAttributes": {
@@ -88,10 +87,11 @@
                             "type": "label",
                             "url": "labelUrl"
                         }
-                    ]
+                    ],
+                    "trackingNumber": "014994716694",
                 },
                 "courrierName":"CORREOSDECHILE",
-                "courrierCode": "01-1795081",
+                "deliveryNumber": "01-1795081",
             }
         }
     }
@@ -116,6 +116,9 @@
 # Campos descartados
 <del> "Pvi_Id_Detalle": "idDetail"  
 <del> Pvi_Fecha_Generacion": "guideGenerationDate,
+  
+  
+
 
 # Consideraciones
 
