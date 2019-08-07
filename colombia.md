@@ -90,8 +90,8 @@
                         }
                     ]
                 },
-                
-                "orderService": "01-1795081",
+                "courrierName":"CORREOSDECHILE",
+                "courrierCode": "01-1795081",
             }
         }
     }
@@ -106,7 +106,7 @@
     "Pvi_Id_Detalle": "idDetail"
     "Pvi_Url": "pviUrl",
     "Pvi_Guia": "trackingNumber",
-    "Pvi_Orden_Servicio": "orderService",
+    "Pvi_Orden_Servicio": "courrierCode",
     "Pvi_Url_Rotulos": "pviRotulosUrl",
     "Pvi_Fecha_Generacion": "guideGenerationDate"
 }
@@ -119,5 +119,6 @@
 
 # Consideraciones
 
-- Pvi_Guia: es el tracking number
+- Pvi_Guia: es el tracking number.
+- courrierCode es un identificador numerico del courrier.
 - Las guias de despacho y etiquetas deben ir como un objeto dentro de docs (array de objetos), indicando el tipo y url.
