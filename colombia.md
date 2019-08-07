@@ -89,10 +89,9 @@
                             "url": "labelUrl"
                         }
                     ],
-                    "trackingNumber": "014994716694",
+                    "deliveryNumber": "01-1795081",
                 },
-                
-                "deliveryNumber": "01-1795081",
+                "trackingNumber": "014994716694",
             }
         }
     }
@@ -107,7 +106,7 @@
     "Pvi_Id_Detalle": "idDetail"
     "Pvi_Url": "pviUrl",
     "Pvi_Guia": "trackingNumber",
-    "Pvi_Orden_Servicio": "courrierCode",
+    "Pvi_Orden_Servicio": "deliveryNumber",
     "Pvi_Url_Rotulos": "pviRotulosUrl",
     "Pvi_Fecha_Generacion": "guideGenerationDate"
 }
@@ -124,5 +123,5 @@
 # Consideraciones
 
 - Pvi_Guia: es el tracking number.
-- courrierCode es un identificador numerico del retiro que asigna el courrier.
+- deliveryNumber es un identificador numerico del retiro que asigna el courrier.
 - Las guias de despacho y etiquetas deben ir como un objeto dentro de docs (array de objetos), indicando el tipo y url.
