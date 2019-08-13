@@ -128,6 +128,13 @@ export const MFN_TABS = [
 ];
 ```
 
+
+
+## vistas
+
+![frontend](docs/detalle.png)
+path: `/src/app/logistic/sodimac/screens/Dashboard/screens/MFNOrdersManagement/components/XDockOrderDetails/index.js`
+
 ## Información de entrega
 
 Layout:
@@ -149,8 +156,3 @@ info sera la información que contendra los datos en el siguiente formato
 ```js
 {expectedDate: "27/2/2019", deliveryAddress: "Eduado Frei Montalva  # 3092"}
 ```
-
-## vistas
-
-![frontend](docs/detalle.png)
-path: `/src/app/logistic/sodimac/screens/Dashboard/screens/MFNOrdersManagement/components/XDockOrderDetails/index.js`
