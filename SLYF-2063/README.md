@@ -104,7 +104,7 @@ El layout de la vista deberia entregar la información al componente en el sigui
       url: 'http://200.69.100.66/2IMPRESIONGUIASpruebas/ISticker_ZEA.aspx?Guia=014994716694'
     }
   ];
-  
+```
 `<Label labels={labels} />`
 
 
