@@ -205,3 +205,5 @@ info sera la información que contendra los datos en el siguiente formato
 {expectedDate: "27/2/2019", deliveryAddress: "Eduado Frei Montalva  # 3092"}
 ```
 
+## footer button
+path: `src/app/logistic/sodimac/screens/Dashboard/screens/MFNOrdersManagement/components/XDockOrderDetails/components/LogisticOrderXDockDetailFooter/index.js`
