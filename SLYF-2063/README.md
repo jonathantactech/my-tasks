@@ -84,6 +84,54 @@
 * Botón para Descargar Guía: Es el link de la guía que debe imprimir el seller. (solo si el courrier la envía)
 
 
+El layout de la vista deberia entregar la información al componente en el siguiente formato:
+```
+  let labels = [
+    {
+      type: 'dispatchGuide',
+      url: 'http://200.69.100.66/2impresionGuiaspruebas/Guia3.aspx?Usuario=EMPCAR01&Guia=014994716694'
+    },
+    {
+      type: 'label',
+      url: 'http://200.69.100.66/2IMPRESIONGUIASpruebas/ISticker_ZEA.aspx?Guia=014994716694'
+    },
+    {
+      type: 'label',
+      url: 'http://200.69.100.66/2IMPRESIONGUIASpruebas/ISticker_ZEA.aspx?Guia=014994716694'
+    },
+    {
+      type: 'label',
+      url: 'http://200.69.100.66/2IMPRESIONGUIASpruebas/ISticker_ZEA.aspx?Guia=014994716694'
+    }
+  ];
+  
+`<Label labels={labels} />`
+
+
+```js
+import React from 'react';
+import PropTypes from 'prop-types';
+
+function Label({ labels }) {
+  const handleClick = () => {
+    labels.map(label => window.open(label.url));
+  };
+  return (
+    <div>
+      <a onClick={handleClick} target="_blank">
+        Descargar etiquetas
+      </a>
+    </div>
+  );
+}
+Label.propTypes = {
+  labels: PropTypes.array.isRequired
+};
+
+export default Label;
+```
+
+
 ### Extracción de la guia
 
 ```js
@@ -156,3 +204,4 @@ info sera la información que contendra los datos en el siguiente formato
 ```js
 {expectedDate: "27/2/2019", deliveryAddress: "Eduado Frei Montalva  # 3092"}
 ```
+
