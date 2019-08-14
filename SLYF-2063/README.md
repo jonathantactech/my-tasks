@@ -207,3 +207,6 @@ info sera la información que contendra los datos en el siguiente formato
 
 ## footer button
 path: `src/app/logistic/sodimac/screens/Dashboard/screens/MFNOrdersManagement/components/XDockOrderDetails/components/LogisticOrderXDockDetailFooter/index.js`
+
+## direct_with_courier
+La vista de detalle debe tener un flujo diferente a las demas y debe estar en gris hasta que llegue la información y pueda habilitarse las opciones para descargar las guias y etiquetas
